@@ -1,0 +1,37 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "version": "1.3.0",
+    "manifestVersion": "1.14",
+    "id": "508d27fb-1a36-4cc7-964a-08e3dce80397",
+    "packageName": "com.microsoft.teams.extension",
+    "name": {
+        "short": "Teams dialog test",
+        "full": ""
+    },
+    "developer": {
+        "name": "Constoso Ltd.",
+        "websiteUrl": "https://www.consoso.com",
+        "privacyUrl": "https://www.consoso.com",
+        "termsOfUseUrl": "https://www.consoso.com"
+    },
+    "description": {
+        "short": "Lorem ipsum",
+        "full": ""
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "home",
+            "name": "Home",
+            "contentUrl": "https://mydomain.ngrok.dev",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "validDomains": []
+}
